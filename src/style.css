@@ -1,0 +1,224 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #05040a;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+#nav-bar {
+  background-color: #bd0d28;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 600px){
+  #nav-bar{
+    width: 100%;
+  }
+}
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #f5f7f7;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 24px;
+  margin-right: 20px;
+}
+#nav-bar :hover {
+  background-color: #12064d;
+}
+#welcome-section {
+  background-color: #080517;
+  text-align: center;
+  padding-top: 220px;
+  padding-bottom: 200px;
+  line-height: 1;
+}
+#sec-item {
+  color: #f5f7f7;
+  font-size: 50px;
+}
+#sec-items {
+  color: #bd0d28;
+  font-size: 25px;
+}
+#projects {
+  background-color: #4a4275;
+  width: 100%;
+  display: flex;
+    flex-direction:column;
+}
+#project-title {
+  font-size: 40px;
+  color: white;
+  padding-top: 60px;
+  margin: unset;
+  border-bottom: 2px solid;
+  width: 45%;
+  text-align: center;
+  align-self: center;
+  padding-bottom:  6px;
+  margin-bottom: 20px;
+}
+
+#project-title p {
+  margin: unset;
+}
+.project-tile {
+  background-color: #010136;
+  height: 60px;
+  font-weight: bold;
+  color: #010136;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-tile p {
+  color: #b5b5ba;
+  margin-left: 4px;  
+  margin-right: 4px;
+}
+
+.project-tile:hover > span{
+  color: #e6743c;
+}
+
+.project-item {
+  flex: 1;
+  background-color: red;
+  margin-right: 24px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+
+.project-item-image {
+  flex: 1;
+  background-size: cover;
+}
+
+.project-item-1 {
+  background-image: url(https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg);
+}
+.project-item-2 {
+  background-image: url(https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png);
+}
+.project-item-3 {
+  background-image: url(https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png);
+}
+.project-item-4 {
+  background-image: url(https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg);
+}
+.project-item-5 {
+  background-image: url(https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png);
+}
+.project-item-6 {
+  background-image: url(https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png);
+}
+.project-items :last-child {
+  margin-right: unset;
+}
+.project-items {
+  margin-right: 30px;
+  margin-left: 24px;
+}
+
+.project-items-row {
+  margin-top: 24px;
+  display: flex;
+}
+.project-link {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.project-link-item {
+  font-size: 17px;
+  background-color: #010136;
+  color: #b5b5ba;
+  border: none;
+  border-radius: 2px;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+.project-link-item:hover {
+  background-color: #bd0d28;
+}
+#contact {
+  background-color: #080517;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+}
+.footer-items {
+  padding-top: 120px;
+  line-height: 1px;
+}
+#footer-sec-item {
+  font-size: 60px;
+}
+#footer-sec-items {
+  font-size: 20px;
+  color: #9e9999;
+}
+#profile-link {
+  padding-top: 50px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+.profiles {
+  height: 40px;
+}
+.profiles :hover {
+  padding-top: 8px;
+  transition: 0.5s;
+}
+
+.profile-item {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  margin-right: 30px;
+  text-shadow: #b4b5b8;
+  display: block;
+}
+
+.contact-item {
+  border-top: 2px solid #bd0d28;
+}
+.contact-items {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.contact-sec {
+  padding-right: 160px;
+}
+.contact-section > a {
+  color: white;
+  text-decoration: none;
+}
+.contact-section > i {
+  border-bottom: 1px solid #e1e2e6;
+}
